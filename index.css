@@ -1,3 +1,51 @@
 body {
     background-color: rgb(175, 167, 55);
+    
+    background-image: url("imgprincipal.jpeg");
+    
   }
+
+  h1 {
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  img {
+    display: block;
+    right: 0px;
+    width: 300px;
+    width: 40%;
+  }
+  .btn-tela-inicial{
+    background-color: #4e480c;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+    
+  }
+  .btn-tela-inicial:hover{
+    background-color: #95af4c;
+}
+.btn-inscreva-se{
+    background-color: #4e480c;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+.btn-inscreva-se:hover{
+    background-color: #95af4c;
+}
