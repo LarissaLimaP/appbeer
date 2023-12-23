@@ -1,7 +1,8 @@
 body {
     background-color: rgb(175, 167, 55);
-    
+    position: static;
     background-image: url("imgprincipal.jpeg");
+
     
   }
 
@@ -27,6 +28,10 @@ body {
     cursor: pointer;
     border-radius: 8px;
     transition: background-color 0.5s ease;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    
     
   }
   .btn-tela-inicial:hover{
@@ -45,6 +50,9 @@ body {
     cursor: pointer;
     border-radius: 8px;
     transition: background-color 0.5s ease;
+    position: absolute;
+    right: 100px;
+    width: 200px;
 }
 .btn-inscreva-se:hover{
     background-color: #95af4c;
@@ -66,6 +74,7 @@ body {
     max-width: 800px;
     list-style: none;
     padding: 0;
+    
 }
 
 #menu-h ul li {
@@ -78,13 +87,30 @@ body {
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
-}
+    float:left;}
 
 #menu-h ul li a:hover {
-    background-color: rgb(24, 139, 233);
+    background-color:#4e480c;
 }
 
 #menu-h ul li:last-child a {
     float: right;
-    background-color: rgb(24, 139, 233);
+    background-color:#4e480c;
 }
+
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position: absolute;
+    left: 10px;
+    float: left;
+    border: 2px solid #4e480c;
+    border-radius: 5px;
+  }
