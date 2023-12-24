@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="login.css" media="screen" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css" media="screen"   />
 </head>
+
 <body>
-
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <div class="login-container">
-        <h1>Login</h1>
+    <div class="background-container"></div>
+    <div class="content-container">
+    <div id="Login">
         <form class="formulariologin">
-            <label for="username"> Usuário:</label>
-            <input type="text" id="username" name="username" required><br><br>
+            <div class="card-header">
+                <h2>Login</h2>
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
 
-            <label for="password"> Senha:</label>
-            <input type="text" id="password" name="password" required><br><br>
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" autocomplete="off">
+                </div>
 
-            <input type="submit" class="btn-login"><br><br><br>
+                <div class="card-content-area">
+
+                    <label for="password">Senha</label>
+
+                    <input type="password" id="password" autocomplete="off">
+
+                </div>
+
+            </div>
+
+            <div class="card-footer">
+
+                <input type="submit" value="Entrar" class="submit">
+
+                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+
+            </div>
         </form>
-    </div>
+    </div></div>
 </body>
+
 </html>

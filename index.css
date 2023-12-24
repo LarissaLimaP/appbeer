@@ -1,21 +1,23 @@
 body {
     background-color: rgb(175, 167, 55);
     position: static;
-    background-image: url("imgprincipal.jpeg");
+}
 
-    
-  }
-
-  h1 {
+h1 {
     font-family: Copperplate, Papyrus, fantasy;
-  }
-  img {
+}
+
+img {
     display: block;
     right: 0px;
+    left:50px;
     width: 300px;
-    width: 40%;
-  }
-  .btn-tela-inicial{
+    width: 100%;
+    margin-top: 100px;
+    opacity: 0.3;
+}
+
+.btn-tela-inicial {
     background-color: #4e480c;
     border: none;
     color: #fff;
@@ -29,15 +31,17 @@ body {
     border-radius: 8px;
     transition: background-color 0.5s ease;
     position: absolute;
-    right: 0px;
-    width: 100px;
-    
-    
-  }
-  .btn-tela-inicial:hover{
+    right: 50px;
+    width: 200px;
+
+
+}
+
+.btn-tela-inicial:hover {
     background-color: #95af4c;
 }
-.btn-inscreva-se{
+
+.btn-inscreva-se {
     background-color: #4e480c;
     border: none;
     color: #fff;
@@ -51,12 +55,14 @@ body {
     border-radius: 8px;
     transition: background-color 0.5s ease;
     position: absolute;
-    right: 100px;
+    right: 300px;
     width: 200px;
 }
-.btn-inscreva-se:hover{
+
+.btn-inscreva-se:hover {
     background-color: #95af4c;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
@@ -66,7 +72,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#menu-h{
+#menu-h {
     background-color: rgb(37, 37, 39);
 }
 
@@ -74,7 +80,7 @@ body {
     max-width: 800px;
     list-style: none;
     padding: 0;
-    
+
 }
 
 #menu-h ul li {
@@ -87,19 +93,20 @@ body {
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
-    float:left;}
+    float: left;
+}
 
 #menu-h ul li a:hover {
-    background-color:#4e480c;
+    background-color: #4e480c;
 }
 
 #menu-h ul li:last-child a {
     float: right;
-    background-color:#4e480c;
+    background-color: #4e480c;
 }
 
 input[type=text] {
-    background-color: white;
+    background-color:#4e480c;
     background-image: url('searchicon.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
@@ -112,5 +119,8 @@ input[type=text] {
     left: 10px;
     float: left;
     border: 2px solid #4e480c;
-    border-radius: 5px;
-  }
+    border-radius: 10px;
+}
+#divBusca input {
+    color: #fff
+};
